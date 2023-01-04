@@ -24,8 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <h1>Hello React Frontend</h1>
 
 </div>
 
@@ -113,7 +112,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone 
+> git clone git@github.com:angeluray/hello-react-front-end.git
 
 ### Install
 
