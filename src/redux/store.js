@@ -1,5 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
-import greetingReducer from "./greeting/greetingReducer";
+import { configureStore } from '@reduxjs/toolkit';
+import greetingReducer from './greeting/greetingReducer';
 
 export default configureStore({
   reducer: {

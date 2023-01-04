@@ -1,11 +1,11 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const URL = "http://localhost:3001/api/v1/greetings";
+const URL = 'http://localhost:3001/api/v1/greetings';
 
 export const fetchingGreeting = createAsyncThunk(
-  "greeting/fetchingGreeting",
+  'greeting/fetchingGreeting',
   async () => {
-    const response = await fetch(URL)
+    const response = await fetch(URL);
     const data = await response.json();
     return data;
   },
